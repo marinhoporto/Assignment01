@@ -17,7 +17,7 @@ function LunchCheckController($scope, $filter) {
              total++;
        }
        if(total == 0)
-           $scope.message = "Try Again";
+           $scope.message = "Please enter data first";
        else if(total > 0 && total <= 3)
                $scope.message = "Enjoy!";
            else
